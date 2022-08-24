@@ -1,4 +1,5 @@
 .header {
+  margin: auto;
   max-width: 75rem;
   padding: 2.5rem 1.25rem;
   margin: 0 auto;
@@ -26,7 +27,7 @@
 }
 
 .header-menu a:hover{
-  text-decoration: underline var(--roxo1);
+  text-decoration: underline .125rem var(--roxo1);
 }
 
 @media (max-width: 50rem) {

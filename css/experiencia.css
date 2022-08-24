@@ -89,6 +89,12 @@
   border-radius: .25rem;
   background: var(--white);
   padding: .3125rem .625rem;
+  transition: 0.4s;
+}
+
+.empresa-habilidades li:hover{
+  background: var(--roxo1);
+  color: var(--white);
 }
 
 @media (max-width: 50rem){

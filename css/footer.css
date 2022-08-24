@@ -11,6 +11,18 @@
   grid-template-columns: 1fr 1fr;
   gap: 6.25rem;
   align-items: center;
+  position: relative;
+}
+
+.footer-container::before{
+  content: '';
+  display: block;
+  width: 8.125rem;
+  height: 6.25rem;
+  background: url("../img/deco.svg") no-repeat center;
+  position: absolute;
+  top: -3.125rem;
+  left: 1.25rem;
 }
 
 .footer-texto{

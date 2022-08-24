@@ -14,18 +14,6 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 6.25rem;
-  position: relative;
-}
-
-.formacao-container::after{
-  content: '';
-  display: block;
-  width: 8.125rem;
-  height: 6.25rem;
-  background: url("../img/deco.svg") no-repeat center;
-  position: absolute;
-  bottom: -3.125rem;
-  left: 1.25rem;
 }
 
 .formacao-texto{

@@ -33,6 +33,10 @@ img{
   display: block;
 }
 
+/* section{
+  height: 100vh;
+} */
+
 .logo{
   width: 4.375rem;
 }
@@ -51,4 +55,15 @@ img{
     text-transform: capitalize;
     max-width: initial !important;
   }
+}
+
+.tag{
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
 }
