@@ -80,16 +80,6 @@
   position: relative;
 }
 
-.footer-copy::before{
-  display: block;
-  content: '';
-  width: 1.5rem;
-  height: 1.5rem;
-  position: absolute;
-  left: -2.25rem;
-  background: url("../img/copyright.svg");
-}
-
 @media (max-width: 50rem){
   .footer-container{
     grid-template-columns: 1fr;
@@ -97,5 +87,9 @@
   }
   .footer-contato li{
     font-size: 1.5rem;
+    margin-left: 2.5rem;
+  }
+  .footer-contato li::before{
+    top: -0.1875rem;
   }
 }
