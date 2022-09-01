@@ -5,20 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Desenvolvedora Front-End, localizada no Rio Grande do Norte.">
-  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Natália Vitória</title>
   <link rel="icon" href="./img/icon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script src="./script.js"></script>
 </head>
 
 <body>
+  <div id="includedContent"></div>
+
   <header class="header">
     <img class="logo" src="./img/marca.svg" alt="Marca" width="80" height="80">
-    <nav>
+    <nav> 
       <ul class="header-menu">
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
@@ -133,9 +135,24 @@
     <div class="footer-container">
       <p class="footer-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quisquam tempora. Quidem non molestias autem, odit officia repellendus</p>
       <ul class="footer-contato">
-        <li class="email">exemplo@email.com</li>
-        <li class="whatsapp">+55 84 9999-999</li>
-        <li class="instagram"><a href="/">@instagram</a></li>
+        <li>
+          <svg class="icon-contato">
+            <use xlink:href="#icon-email"></use>
+          </svg>
+          exemplo@email.com
+        </li>
+        <li>
+          <svg class="icon-contato size-margin-icon">
+            <use xlink:href="#icon-whatsapp"></use>
+          </svg>
+          +55 84 9999-999
+        </li>
+        <li>
+          <svg class="icon-contato size-margin-icon">
+            <use xlink:href="#icon-instagram"></use>
+          </svg>
+          <a href="/">@instagram</a>
+        </li>
       </ul>
       <p class="footer-copy">Copyright ©2022. Natália Vitória. Todos os direitos reservados.</p>
     </div>

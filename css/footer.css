@@ -26,7 +26,7 @@
 }
 
 .footer-texto{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.33;
   color: var(--cinza-claro4);
 }
@@ -38,34 +38,19 @@
   color: var(--white);
   margin-bottom: 1.875rem;
   position: relative;
+  align-items: center;
+  display: flex;
+  gap: .3125rem;
 }
 
-.footer-contato li::before{
-  display: block;
-  content: '';
-  width: 2rem;
-  height: 2rem;
-  position: absolute;
-  left: -2.25rem;
-  top: .25rem;
+.icon-contato{
+  width: 1.5625rem;
+  height: 1.5625rem;
 }
 
-.footer-contato .email::before{
-  left: -2.5rem;
-  width: 2.375rem;
-  height: 2.375rem;
-}
-
-.email::before{
-  background: url("../img/email.svg");
-}
-
-.whatsapp::before{
-  background: url("../img/whatsapp.svg");
-}
-
-.instagram::before{
-  background: url("../img/instagram.svg");
+.size-margin-icon{
+  margin-left: 5px;
+  width: 25px;
 }
 
 .footer-contato li a{
@@ -85,7 +70,7 @@
     gap: 2.5rem;
   }
   .footer-contato li{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-left: 2.5rem;
   }
   .footer-contato li::before{

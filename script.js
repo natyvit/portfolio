@@ -13,3 +13,7 @@ $(document).on("scroll", function() {
     }
   }
 });
+
+$(function(){
+  $("#includedContent").load("svgs.html"); 
+});
