@@ -41,6 +41,7 @@
   align-items: center;
   display: flex;
   gap: .3125rem;
+  align-items: center;
 }
 
 .icon-contato{
@@ -75,5 +76,22 @@
   }
   .footer-contato li::before{
     top: -0.1875rem;
+  }
+}
+
+@media (min-width: 1440px){
+  .footer-contato li{
+    font-size: 25px;
+  }
+
+  .icon-contato{
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-contato li:not(:first-child) .icon-contato{
+    width: 33px;
+    height: 33px;
+    margin-top: 7px;
   }
 }
