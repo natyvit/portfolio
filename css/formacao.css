@@ -1,6 +1,6 @@
 .formacao{
   background: linear-gradient(var(--roxo1), var(--roxo2));
-  color: var(--preto-azul);
+  color: var(--preto-claro);
 }
 
 .formacao .subtitulo{
@@ -37,7 +37,7 @@
 
 .faculdade{
   flex: 1;
-  background: var(--black);
+  background: var(--preto-claro);
   color: var(--white);
   padding: 1.25rem;
   border-radius: .25rem;
